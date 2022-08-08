@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	topicName := "kafkaAssignment"
+	topicName := "kafkAssignment"
 
 	reader := kafka.NewReader(kafka.ReaderConfig{
 		Brokers: []string{"localhost:9092"},

@@ -9,7 +9,7 @@ import (
 func main() {
 	writer := &kafka.Writer{
 		Addr:                   kafka.TCP("localhost:9092"),
-		Topic:                  "kafkaAssignment",
+		Topic:                  "kafkAssignment",
 		RequiredAcks:           kafka.RequireAll,
 		Async:                  true,
 		AllowAutoTopicCreation: true,
